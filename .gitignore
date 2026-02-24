@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / local envs
+.env
+*.env
+!.env.example
+
+# Local data / vector DB
+backend/chroma_db/
+
+# Ignore files inside PDFs folder, but keep the folder itself
+backend/data/pdfs/*
+!backend/data/pdfs/.gitkeep
+!backend/data/.gitkeep
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
