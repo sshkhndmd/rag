@@ -1,4 +1,5 @@
 1) Запуск backend
+
 cd backend
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -7,6 +8,7 @@ Copy-Item .env.example .env
 python -m uvicorn app:app --reload --port 8000
 
 2) Запуск frontend
+
 cd frontend
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
